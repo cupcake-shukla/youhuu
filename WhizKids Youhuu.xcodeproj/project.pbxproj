@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84F71FB31DBFE12A009F9CDE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F71FB21DBFE12A009F9CDE /* main.m */; };
+		84F71FB61DBFE12A009F9CDE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F71FB51DBFE12A009F9CDE /* AppDelegate.m */; };
+		84F71FB91DBFE12A009F9CDE /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F71FB81DBFE12A009F9CDE /* FirstViewController.m */; };
+		84F71FBC1DBFE12A009F9CDE /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F71FBB1DBFE12A009F9CDE /* SecondViewController.m */; };
+		84F71FBF1DBFE12A009F9CDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84F71FBD1DBFE12A009F9CDE /* Main.storyboard */; };
+		84F71FC11DBFE12A009F9CDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84F71FC01DBFE12A009F9CDE /* Assets.xcassets */; };
+		84F71FC41DBFE12A009F9CDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84F71FC21DBFE12A009F9CDE /* LaunchScreen.storyboard */; };
+		84F71FCF1DBFE12A009F9CDE /* WhizKids_YouhuuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F71FCE1DBFE12A009F9CDE /* WhizKids_YouhuuTests.m */; };
+		84F71FDA1DBFE12A009F9CDE /* WhizKids_YouhuuUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F71FD91DBFE12A009F9CDE /* WhizKids_YouhuuUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84F71FCB1DBFE12A009F9CDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84F71FA61DBFE12A009F9CDE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84F71FAD1DBFE12A009F9CDE;
+			remoteInfo = "WhizKids Youhuu";
+		};
+		84F71FD61DBFE12A009F9CDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84F71FA61DBFE12A009F9CDE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84F71FAD1DBFE12A009F9CDE;
+			remoteInfo = "WhizKids Youhuu";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84F71FAE1DBFE12A009F9CDE /* WhizKids Youhuu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WhizKids Youhuu.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84F71FB21DBFE12A009F9CDE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84F71FB41DBFE12A009F9CDE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84F71FB51DBFE12A009F9CDE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84F71FB71DBFE12A009F9CDE /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		84F71FB81DBFE12A009F9CDE /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		84F71FBA1DBFE12A009F9CDE /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		84F71FBB1DBFE12A009F9CDE /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		84F71FBE1DBFE12A009F9CDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84F71FC01DBFE12A009F9CDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84F71FC31DBFE12A009F9CDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84F71FC51DBFE12A009F9CDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84F71FCA1DBFE12A009F9CDE /* WhizKids YouhuuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WhizKids YouhuuTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84F71FCE1DBFE12A009F9CDE /* WhizKids_YouhuuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WhizKids_YouhuuTests.m; sourceTree = "<group>"; };
+		84F71FD01DBFE12A009F9CDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84F71FD51DBFE12A009F9CDE /* WhizKids YouhuuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WhizKids YouhuuUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84F71FD91DBFE12A009F9CDE /* WhizKids_YouhuuUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WhizKids_YouhuuUITests.m; sourceTree = "<group>"; };
+		84F71FDB1DBFE12A009F9CDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84F71FAB1DBFE12A009F9CDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84F71FC71DBFE12A009F9CDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84F71FD21DBFE12A009F9CDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84F71FA51DBFE12A009F9CDE = {
+			isa = PBXGroup;
+			children = (
+				84F71FB01DBFE12A009F9CDE /* WhizKids Youhuu */,
+				84F71FCD1DBFE12A009F9CDE /* WhizKids YouhuuTests */,
+				84F71FD81DBFE12A009F9CDE /* WhizKids YouhuuUITests */,
+				84F71FAF1DBFE12A009F9CDE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84F71FAF1DBFE12A009F9CDE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84F71FAE1DBFE12A009F9CDE /* WhizKids Youhuu.app */,
+				84F71FCA1DBFE12A009F9CDE /* WhizKids YouhuuTests.xctest */,
+				84F71FD51DBFE12A009F9CDE /* WhizKids YouhuuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84F71FB01DBFE12A009F9CDE /* WhizKids Youhuu */ = {
+			isa = PBXGroup;
+			children = (
+				84F71FB41DBFE12A009F9CDE /* AppDelegate.h */,
+				84F71FB51DBFE12A009F9CDE /* AppDelegate.m */,
+				84F71FB71DBFE12A009F9CDE /* FirstViewController.h */,
+				84F71FB81DBFE12A009F9CDE /* FirstViewController.m */,
+				84F71FBA1DBFE12A009F9CDE /* SecondViewController.h */,
+				84F71FBB1DBFE12A009F9CDE /* SecondViewController.m */,
+				84F71FBD1DBFE12A009F9CDE /* Main.storyboard */,
+				84F71FC01DBFE12A009F9CDE /* Assets.xcassets */,
+				84F71FC21DBFE12A009F9CDE /* LaunchScreen.storyboard */,
+				84F71FC51DBFE12A009F9CDE /* Info.plist */,
+				84F71FB11DBFE12A009F9CDE /* Supporting Files */,
+			);
+			path = "WhizKids Youhuu";
+			sourceTree = "<group>";
+		};
+		84F71FB11DBFE12A009F9CDE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84F71FB21DBFE12A009F9CDE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84F71FCD1DBFE12A009F9CDE /* WhizKids YouhuuTests */ = {
+			isa = PBXGroup;
+			children = (
+				84F71FCE1DBFE12A009F9CDE /* WhizKids_YouhuuTests.m */,
+				84F71FD01DBFE12A009F9CDE /* Info.plist */,
+			);
+			path = "WhizKids YouhuuTests";
+			sourceTree = "<group>";
+		};
+		84F71FD81DBFE12A009F9CDE /* WhizKids YouhuuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84F71FD91DBFE12A009F9CDE /* WhizKids_YouhuuUITests.m */,
+				84F71FDB1DBFE12A009F9CDE /* Info.plist */,
+			);
+			path = "WhizKids YouhuuUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84F71FAD1DBFE12A009F9CDE /* WhizKids Youhuu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84F71FDE1DBFE12A009F9CDE /* Build configuration list for PBXNativeTarget "WhizKids Youhuu" */;
+			buildPhases = (
+				84F71FAA1DBFE12A009F9CDE /* Sources */,
+				84F71FAB1DBFE12A009F9CDE /* Frameworks */,
+				84F71FAC1DBFE12A009F9CDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WhizKids Youhuu";
+			productName = "WhizKids Youhuu";
+			productReference = 84F71FAE1DBFE12A009F9CDE /* WhizKids Youhuu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84F71FC91DBFE12A009F9CDE /* WhizKids YouhuuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84F71FE11DBFE12A009F9CDE /* Build configuration list for PBXNativeTarget "WhizKids YouhuuTests" */;
+			buildPhases = (
+				84F71FC61DBFE12A009F9CDE /* Sources */,
+				84F71FC71DBFE12A009F9CDE /* Frameworks */,
+				84F71FC81DBFE12A009F9CDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84F71FCC1DBFE12A009F9CDE /* PBXTargetDependency */,
+			);
+			name = "WhizKids YouhuuTests";
+			productName = "WhizKids YouhuuTests";
+			productReference = 84F71FCA1DBFE12A009F9CDE /* WhizKids YouhuuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84F71FD41DBFE12A009F9CDE /* WhizKids YouhuuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84F71FE41DBFE12A009F9CDE /* Build configuration list for PBXNativeTarget "WhizKids YouhuuUITests" */;
+			buildPhases = (
+				84F71FD11DBFE12A009F9CDE /* Sources */,
+				84F71FD21DBFE12A009F9CDE /* Frameworks */,
+				84F71FD31DBFE12A009F9CDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84F71FD71DBFE12A009F9CDE /* PBXTargetDependency */,
+			);
+			name = "WhizKids YouhuuUITests";
+			productName = "WhizKids YouhuuUITests";
+			productReference = 84F71FD51DBFE12A009F9CDE /* WhizKids YouhuuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84F71FA61DBFE12A009F9CDE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = macDivision;
+				TargetAttributes = {
+					84F71FAD1DBFE12A009F9CDE = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					84F71FC91DBFE12A009F9CDE = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 84F71FAD1DBFE12A009F9CDE;
+					};
+					84F71FD41DBFE12A009F9CDE = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 84F71FAD1DBFE12A009F9CDE;
+					};
+				};
+			};
+			buildConfigurationList = 84F71FA91DBFE12A009F9CDE /* Build configuration list for PBXProject "WhizKids Youhuu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84F71FA51DBFE12A009F9CDE;
+			productRefGroup = 84F71FAF1DBFE12A009F9CDE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84F71FAD1DBFE12A009F9CDE /* WhizKids Youhuu */,
+				84F71FC91DBFE12A009F9CDE /* WhizKids YouhuuTests */,
+				84F71FD41DBFE12A009F9CDE /* WhizKids YouhuuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84F71FAC1DBFE12A009F9CDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84F71FC41DBFE12A009F9CDE /* LaunchScreen.storyboard in Resources */,
+				84F71FC11DBFE12A009F9CDE /* Assets.xcassets in Resources */,
+				84F71FBF1DBFE12A009F9CDE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84F71FC81DBFE12A009F9CDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84F71FD31DBFE12A009F9CDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84F71FAA1DBFE12A009F9CDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84F71FBC1DBFE12A009F9CDE /* SecondViewController.m in Sources */,
+				84F71FB61DBFE12A009F9CDE /* AppDelegate.m in Sources */,
+				84F71FB91DBFE12A009F9CDE /* FirstViewController.m in Sources */,
+				84F71FB31DBFE12A009F9CDE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84F71FC61DBFE12A009F9CDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84F71FCF1DBFE12A009F9CDE /* WhizKids_YouhuuTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84F71FD11DBFE12A009F9CDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84F71FDA1DBFE12A009F9CDE /* WhizKids_YouhuuUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84F71FCC1DBFE12A009F9CDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84F71FAD1DBFE12A009F9CDE /* WhizKids Youhuu */;
+			targetProxy = 84F71FCB1DBFE12A009F9CDE /* PBXContainerItemProxy */;
+		};
+		84F71FD71DBFE12A009F9CDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84F71FAD1DBFE12A009F9CDE /* WhizKids Youhuu */;
+			targetProxy = 84F71FD61DBFE12A009F9CDE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84F71FBD1DBFE12A009F9CDE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84F71FBE1DBFE12A009F9CDE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84F71FC21DBFE12A009F9CDE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84F71FC31DBFE12A009F9CDE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84F71FDC1DBFE12A009F9CDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84F71FDD1DBFE12A009F9CDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84F71FDF1DBFE12A009F9CDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "WhizKids Youhuu/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.WhizKids-Youhuu";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		84F71FE01DBFE12A009F9CDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "WhizKids Youhuu/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.WhizKids-Youhuu";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		84F71FE21DBFE12A009F9CDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "WhizKids YouhuuTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.WhizKids-YouhuuTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WhizKids Youhuu.app/WhizKids Youhuu";
+			};
+			name = Debug;
+		};
+		84F71FE31DBFE12A009F9CDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "WhizKids YouhuuTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.WhizKids-YouhuuTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WhizKids Youhuu.app/WhizKids Youhuu";
+			};
+			name = Release;
+		};
+		84F71FE51DBFE12A009F9CDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "WhizKids YouhuuUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.WhizKids-YouhuuUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "WhizKids Youhuu";
+			};
+			name = Debug;
+		};
+		84F71FE61DBFE12A009F9CDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "WhizKids YouhuuUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.WhizKids-YouhuuUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "WhizKids Youhuu";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84F71FA91DBFE12A009F9CDE /* Build configuration list for PBXProject "WhizKids Youhuu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84F71FDC1DBFE12A009F9CDE /* Debug */,
+				84F71FDD1DBFE12A009F9CDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84F71FDE1DBFE12A009F9CDE /* Build configuration list for PBXNativeTarget "WhizKids Youhuu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84F71FDF1DBFE12A009F9CDE /* Debug */,
+				84F71FE01DBFE12A009F9CDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		84F71FE11DBFE12A009F9CDE /* Build configuration list for PBXNativeTarget "WhizKids YouhuuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84F71FE21DBFE12A009F9CDE /* Debug */,
+				84F71FE31DBFE12A009F9CDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		84F71FE41DBFE12A009F9CDE /* Build configuration list for PBXNativeTarget "WhizKids YouhuuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84F71FE51DBFE12A009F9CDE /* Debug */,
+				84F71FE61DBFE12A009F9CDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84F71FA61DBFE12A009F9CDE /* Project object */;
+}
