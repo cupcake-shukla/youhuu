@@ -17,6 +17,19 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+   
+    
+    
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    int gamestarted = [defaults integerForKey:@"gamestarted"];
+    if(gamestarted!=1){
+        int gamestarted=1;
+        [defaults setInteger:gamestarted forKey:@"gamestarted"];
+        [defaults setInteger:0 forKey:@"firstIndex"];
+        [defaults setInteger:10 forKey:@"lastIndex"];
+        [defaults synchronize];
+    }
+    
     return YES;
 }
 
